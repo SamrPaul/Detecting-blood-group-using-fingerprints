@@ -1,7 +1,7 @@
 
 # Fingerprint-Based Blood Group Detection
 
-This repository contains code, datasets, and results related to fingerprint-based blood group detection. The project explores using various machine learning models (ResNet, VGG16, AlexNet, and LeNet) to classify blood groups based on fingerprint images. 
+This repository contains code, datasets, and results related to fingerprint-based blood group detection. The project explores using various machine learning models (ResNet, AlexNet, and LeNet) to classify blood groups based on fingerprint images. 
 
 The project is organized into various folders that store datasets, models, performance metrics, and visualization graphs.
 
@@ -23,7 +23,6 @@ The main directories are organized as follows:
 Fingerprint-Based-Blood-Group-Detection/
 ├── code/
 │   ├── resnet/          # ResNet model code and files
-│   ├── vgg16/           # VGG16 model code and files
 │   ├── alexnet/         # AlexNet model code and files
 │   └── lenet/           # LeNet model code and files
 ├── dataset/
@@ -61,7 +60,7 @@ pip install -r requirements.txt
 ### Cloning the Repository
 
 ```bash
-git clone https://github.com/yourusername/Fingerprint-Based-Blood-Group-Detection.git
+git clone https://github.com/SamrPaul/Detecting-blood-group-using-fingerprints
 cd Fingerprint-Based-Blood-Group-Detection
 ```
 
@@ -78,7 +77,6 @@ Ensure that you have sufficient storage space before downloading or expanding th
 This project explores the following CNN architectures:
 
 - **ResNet**
-- **VGG16**
 - **AlexNet**
 - **LeNet**
 
@@ -113,14 +111,5 @@ The `sample dataset/` folder includes a sample fingerprint image to give users a
 4. **Testing on Sample Data**:
    You can test the model using images from the `sample dataset/` or by adding additional test images to the `test/` folder.
 
-## Contributing
 
-Feel free to fork this repository, make improvements, and submit a pull request. Contributions to improve model performance, add additional blood group types, or optimize the codebase are welcome.
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Acknowledgments
-
-Special thanks to the authors of the research paper that served as the foundation for this work. For details on the methodology and findings, refer to the paper included in this repository.
